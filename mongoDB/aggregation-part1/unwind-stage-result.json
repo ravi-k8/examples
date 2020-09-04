@@ -1,0 +1,44 @@
+[
+  {
+    "resourceUid" : "1",
+    "values" : {
+      "timestamp" : "2020-08-27T00:00:00.265Z",
+      "value" : 100
+    }
+  },
+  {
+    "resourceUid" : "1",
+    "values" : {
+      "timestamp" : "2020-08-27T00:01:00.265Z",
+      "value" : 110
+    }
+  },
+  {
+    "resourceUid" : "1",
+    "values" : {
+      "timestamp" : "2020-08-27T00:02:00.265Z",
+      "value" : 120
+    }
+  },
+  {
+    "resourceUid" : "3",
+    "values" : {
+      "timestamp" : "2020-08-27T00:00:00.265Z",
+      "value" : 200
+    }
+  },
+  {
+    "resourceUid" : "3",
+    "values" : {
+      "timestamp" : "2020-08-27T00:01:00.265Z",
+      "value" : 210
+    }
+  },
+  {
+    "resourceUid" : "3",
+    "values" : {
+      "timestamp" : "2020-08-27T00:02:00.265Z",
+      "value" : 220
+    }
+  }
+]

@@ -1,5 +1,6 @@
 [
   {
+    "_id": "1",
     "kind": "cpuUsage",
     "resourceUid": "1",
     "values": [
@@ -18,8 +19,28 @@
     ]
   },
   {
-    "kind": "cpuUsage",
+    "_id": "2",
+    "kind": "memoryUsage",
     "resourceUid": "2",
+    "values": [
+      {
+        "timestamp": "2020-08-27T00:00:00.265Z",
+        "value": 1024
+      },
+      {
+        "timestamp": "2020-08-27T00:01:00.265Z",
+        "value": 1024
+      },
+      {
+        "timestamp": "2020-08-27T00:02:00.265Z",
+        "value": 1024
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "kind": "cpuUsage",
+    "resourceUid": "3",
     "values": [
       {
         "timestamp": "2020-08-27T00:00:00.265Z",
@@ -32,6 +53,25 @@
       {
         "timestamp": "2020-08-27T00:02:00.265Z",
         "value": 220
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "kind": "memoryUsage",
+    "resourceUid": "4",
+    "values": [
+      {
+        "timestamp": "2020-08-27T00:00:00.265Z",
+        "value": 1024
+      },
+      {
+        "timestamp": "2020-08-27T00:01:00.265Z",
+        "value": 1024
+      },
+      {
+        "timestamp": "2020-08-27T00:02:00.265Z",
+        "value": 1024
       }
     ]
   }

@@ -1,0 +1,20 @@
+ [
+   {
+     "_id" : {
+       "resourceUid" : "3"
+     },
+     "max" : 220,
+     "min" : 200,
+     "avg" : 210.0,
+     "count" : 3.0
+   },
+   {
+     "_id" : {
+       "resourceUid" : "1"
+     },
+     "max" : 120,
+     "min" : 100,
+     "avg" : 110.0,
+     "count" : 3.0
+   }
+ ]

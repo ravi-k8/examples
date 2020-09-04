@@ -1,0 +1,12 @@
+db.getCollection('metrics').aggregate([
+    { "$match": { "kind":"cpuUsage" } },
+    { "$project": { "kind": 0, "_id" : 0 } },
+    { "$unwind": { "path": "$values" } },
+    { "$sort" : { "values.timestamp" : 1 } },
+    { "$group": { "_id": { "resourceUid": "$resourceUid" },
+                  "max": { "$max" : "$values.value"},
+                  "min": { "$min" : "$values.value"},
+                  "avg": { "$avg" : "$values.value"},
+                  "count": { "$sum" : 1 } } }
+
+])

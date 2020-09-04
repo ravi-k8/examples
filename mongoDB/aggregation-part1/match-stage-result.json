@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "1",
+    "kind": "cpuUsage",
+    "resourceUid": "1",
+    "values": [
+      {
+        "timestamp": "2020-08-27T00:00:00.265Z",
+        "value": 100
+      },
+      {
+        "timestamp": "2020-08-27T00:01:00.265Z",
+        "value": 110
+      },
+      {
+        "timestamp": "2020-08-27T00:02:00.265Z",
+        "value": 120
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "kind": "cpuUsage",
+    "resourceUid": "3",
+    "values": [
+      {
+        "timestamp": "2020-08-27T00:00:00.265Z",
+        "value": 200
+      },
+      {
+        "timestamp": "2020-08-27T00:01:00.265Z",
+        "value": 210
+      },
+      {
+        "timestamp": "2020-08-27T00:02:00.265Z",
+        "value": 220
+      }
+    ]
+  }
+]
