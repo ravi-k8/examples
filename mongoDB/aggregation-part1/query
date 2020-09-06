@@ -8,5 +8,4 @@ db.getCollection('metrics').aggregate([
                   "min": { "$min" : "$values.value"},
                   "avg": { "$avg" : "$values.value"},
                   "count": { "$sum" : 1 } } }
-
 ])
